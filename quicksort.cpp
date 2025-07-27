@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 int partition(int arr[],int low,int high){
     int i=low-1;
     int pivot=arr[high];
