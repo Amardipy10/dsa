@@ -1,3 +1,11 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+
+
+
+
 int findMissingBrute(vector<int>& arr, int n) {
     for (int i = 1; i <= n + 1; i++) {
         bool found = false;
